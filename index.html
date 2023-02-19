@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <!-- Materialize Icon -->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- <link rel="stylesheet" href="https://kit.fontawesome.com/7e6c002853.css" crossorigin="anonymous"> -->
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <title>Tiam Beng's Seafood</title>
+      
+      <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        body {
+          background-color: #242629;
+        }
+        html {
+          /*background-color: #242629;*/
+          scroll-behavior: smooth;
+        }
+        a.brand-logo {
+          font-size: 18px;
+          /*color: #a7a9be;*/
+          color: #fffffe;
+          font-family: 'Poppins', sans-serif;
+          font-weight: 600;
+        }
+        .navbar {
+          /*background-color: #16161a;*/
+          background-color: #16161a;
+        }
+        
+        /* Side Nav */
+        ul.sidenav {
+          background-color: #16161a;
+        }
+        ul.sidenav > li > a {
+          color: #fffffe !important;
+        }
+        
+        /* Header */
+      </style>
+      
+      <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+      <!-- Navbar -->
+      <div class="navbar-fixed">
+        <nav class="navbar">
+          <div class="container">
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo">Tiam Beng's</a>
+              <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#teams">Tim Kami</a></li>
+                <li><a href="#contact">Kontak Kami</a></li>
+                <li><a href="#testi">Testimoni</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      
+      
+      <!-- Sidenav -->
+      <ul class="sidenav" id="mobile-nav">
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#teams">Tim Kami</a></li>
+        <li><a href="#testi">Testimoni</a></li>
+        <li><a href="#contact">Kontak Kami</a></li>
+      </ul>
+      
+      <!-- Slider -->
+       <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="img/tiam.jpg">
+            <div class="caption center-align">
+              <h3>Tiam Beng's Seafood</h3>
+              <h5 class="light grey-text text-lighten-3">Traditional Chinnes Food Muslim</h5>
+              <!-- <a class="waves-effect waves-light btn" id="button" href="#visi">Jelajahi</a> -->
+            </div>
+          </li>
+        </ul>
+       </div>
+       
+       <section id="about" class="about scrollspy" data-aos="fade-up">
+         <!-- <h3 class="center light">Tentang Kami</h3> -->
+         <div class="container">
+           <div class="row">
+             <div class="col m12 light">
+               <div class="line"></div>
+               <p><span id="tiam"><bold>Tiam Beng's Seafood Muslim</bold></span>
+               adalah sebuah restoran yang menyajikan hidangan seafood dan masakan China Muslim tradisional yang menggugah selera.
+               Restoran ini memiliki dekorasi yang simpel namun elegan dengan dominasi warna putih yang memberikan kesan bersih dan tenang.
+               Di dalam restoran terdapat meja makan yang nyaman serta bisa dipesan untuk acara spesial ...</p>
+               <!-- Modals -->
+               <a class="waves-effect waves-light btn modal-trigger" id="details" href="#modal1">Read More</a>
+
+               <!-- Modal Structure -->
+               <div id="modal1" class="modal">
+                  <div class="modal-content">
+                    <p>Menu utama yang disajikan di restoran Tiam Beng's Seafood Muslim Masakan China Muslim Tradisional adalah hidangan seafood yang segar, diolah dengan bumbu khas China Muslim tradisional yang menghasilkan rasa yang khas dan lezat. Salah satu hidangan favorit di restoran ini adalah <span id="ifumie"><bold>Ifumie Super Special</bold></span> yang memiliki rasa gurih dan mantap. Selain itu, restoran ini juga menyajikan berbagai macam hidangan seperti <span id="nasi-goreng"><bold>Nasi Goreng Seafood</bold></span> dan <span id="kwetiau"><bold>Kwetiau Goreng Seafood</bold></span> yang bisa dinikmati oleh semua kalangan.<p>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class="modal-close waves-effect waves-green btn-flat" id="close">Close</a>
+                  </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </section>
+       
+       <!-- Mitra -->
+       <div class="parallax-container">
+         <div class="parallax"><img src="img/wr.jpg"></div>
+         
+         <div class="container mitra">
+           <h3 class="center light white-text">Tersedia di</h3>
+           
+           <div class="row">
+             <div class="col m4 s12 center">
+               <img src="mitra/gofood.png">
+             </div>
+             <div class="col m4 s12 center">
+               <img src="mitra/shopee.png">
+             </div>
+             <div class="col m4 s12 center">
+               <img src="mitra/grabfood.png">
+             </div>
+           </div>
+         </div>
+       </div>
+       
+       <!-- Visi Misi -->
+       <section class="visi scrollspy" id="visi" data-aos="fade-up">
+         <div class="visi-misi">
+           <h3 class="center">Visi</h3>
+           <p>Menjadi restoran seafood dan masakan China Muslim tradisional terkemuka di wilayah ini, dengan memberikan pengalaman kuliner yang unik dan lezat serta pelayanan terbaik kepada pelanggan</p>
+           <h3 class="center">Misi</h3>
+           <p>Menyediakan pelayanan terbaik dan ramah kepada pelanggan, sehingga menciptakan pengalaman makan yang menyenangkan dan berkesan</p>
+         </div>
+       </section>
+       
+       <!-- Carousel -->
+       <section class="teams scrollspy" id="teams" data-aos="fade-up">
+         <h3 class="left light"><span id="tim">Tim</span> Kami</h3>
+         <div class="hr-line center"></div>
+         <p class="sukses">Tim sukses <span class="bengs">Tiam Beng's Seafood</span>
+         <div class="tim"></div>
+         <div class="carousel">
+          <h3 class="left">Pemilik<span id="resto"><br>Restoran</br></span></h3>
+          <div class="carousel-item">
+            <div class="hero-card">
+              <div class="profile-abeng"></div>
+              <h5 class="center">Alm. Abeng</h5>
+              <p class="center">Owner Asli</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="hero-card">
+              <div class="profile-putri"></div>
+              <h5 class="center">Putri Indahyani</h5>
+              <p class="center">Anak/Owner</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="hero-card">
+              <div class="profile-aziz"></div>
+              <h5 class="center">Abdul Azis</h5>
+              <p class="center">Menantu/Owner</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="hero-card">
+              <div class="profile"></div>
+              <h5 class="center">Adillah Soraya</h5>
+              <p class="center">Anak/Owner</p>
+            </div>
+          </div>
+         </div>
+       </section>
+       
+       <!-- Menu -->
+       <section class="menu scrollspy" id="menu" data-aos="fade-up">
+         <div class="container">
+           <div class="row">
+             <h3 class="center light">Best <span id="of">of</span> Menu</h3>
+             <div class="col m4 s12">
+               <div class="card">
+                 <div class="card-img">
+                   <span class="card-title">Nasi Goreng<br>Seafood</span>
+                 </div>
+                 <div class="card-content">
+                   <p><span id="nasi">Nasi Goreng Seafood</span> di Restoran Tiam Beng's adalah hidangan yang wajib dicoba bagi pecinta makanan seafood dan nasi goreng.
+                   </p>
+                 </div>
+                 <div class="card-action">
+                   <a href="#">pesan sekarang</a>
+                 </div>
+               </div>
+             </div>
+             <div class="col m4 s12">
+               <div class="card">
+                 <div class="card-img-ifumie">
+                   <span class="card-title">Ifumie Goreng<br>Seafood</span>
+                 </div>
+                 <div class="card-content">
+                   <p><span>Ifumie Goreng Seafood</span> di Restoran Tiam Beng's adalah salah satu menu hidangan paling laris yang disukai oleh banyak pelanggan.
+                   </p>
+                 </div>
+                 <div class="card-action">
+                   <a href="#">pesan sekarang</a>
+                 </div>
+               </div>
+             </div>
+             <div class="col m4 s12">
+               <div class="card">
+                 <div class="card-img-kwetiau">
+                   <span class="card-title">Kwetiau Goreng<br>Seafood</span>
+                 </div>
+                 <div class="card-content">
+                   <p><span>kwetiau Goreng Seafood</span> di Restoran Tiam Beng's adalah hidangan yang lezat dan cocok untuk pecinta seafood dan mie.
+                   </p>
+                 </div>
+                 <div class="card-action">
+                   <a href="#">pesan sekarang</a>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </section>
+       
+       <!-- Testimoni -->
+       <section class="testimoni scrollspy" id="testi" data-aos="fade-up">
+         <h3 class="center" id="kata">Kata Mereka</h3>
+         <div class="slider">
+            <ul class="slides" id="test">
+              <li>
+                  <div class="card-wrap">
+                    <div class="img-hero-cowo1"></div>
+                    <p><span><i class="fa fa-quote-left"></i></span>masakannya mantul, paktiam favoritku sjk almarhum baru jualan diserdang dan msh lajang.<span><i class="fa fa-quote-right"></i></span></p>
+                    <h3 class="center light">Mrtoni Pane</h3>
+                  </div>
+              </li>
+              <li>
+                  <div class="card-wrap">
+                    <div class="img-hero-cewe1"></div>
+                    <p><span><i class="fa fa-quote-left"></i></span>Saya sudah beberapa kali makan di Restoran Tiam Beng's dan tidak pernah kecewa dengan masakan mereka<span><i class="fa fa-quote-right"></i></span></p>
+                    <h3 class="center light">Amanda Putri</h3>
+                  </div>
+              </li>
+              <li>
+                  <div class="card-wrap">
+                    <div class="img-hero-cewe2"></div>
+                    <p><span><i class="fa fa-quote-left"></i></span>Hidangan Kwetiau Goreng Seafood adalah favorit saya. Kwetiaunya kenyal dan seafoodnya segar, dan bumbunya terasa sangat kaya dan lezat<span><i class="fa fa-quote-right"></i></span></p>
+                    <h3 class="center light">Tiara Devi Puspita</h3>
+                  </div>
+              </li>
+            </ul>
+         </div>
+       </section>
+       
+       <!-- Contact Us -->
+       <section id="contact" class="contact" data-aos="fade-up">
+         <div class="container">
+           <h3 class="center"><span>Kontak</span> Kami</h3>
+           <div class="row">
+             <div class="col m5 s12">
+               <div class="card-panel center">
+                 <i class="material-icons">email</i>
+                 <h3>Kontak</h3>
+                 <p>Jika ada keluhan terhadap pelayanan kami, Silahkan hubungi kami, dengan senang hati kami akan menerima keluhan Anda</p>
+               </div>
+               <ul class="collection with-header" id="collect">
+                  <li class="collection-header"><h4>Our Restaurant</h4></li>
+                  <li class="collection-item">Tiam Beng's Seafood</li>
+                  <li class="collection-item">JL.SENTOSA BARU NO.18, Kota Medan</li>
+                  <li class="collection-item">North Sumatera, Indonesia</li>
+              </ul>
+             </div>
+             <div class="col m7 s12">
+               <form>
+                 <div class="card-panel">
+                   <h5>Please fill out this form</h5>
+                   <div class="input-field">
+                     <input type="text" name="name" id="name" required class="validate">
+                     <label for="name">Nama</label>
+                   </div>
+                   <div class="input-field">
+                     <input type="email" name="email" id="email" required class="validate">
+                     <label for="email">Email</label>
+                   </div>
+                   <div class="input-field">
+                     <input type="number" name="phone" id="phone" required class="validate">
+                     <label for="phone">No.HP</label>
+                   </div>
+                   <div class="input-field">
+                     <textarea name="message" id="message" class="materialize-textarea" required></textarea>
+                     <label for="message">Pesan</label>
+                   </div>
+                   <button type="submit" class="btn">Kirim</button>
+                 </div>
+               </form>
+             </div>
+           </div>
+         </div>
+       </section>
+       
+       <!-- Footer -->
+       <footer class="center">
+         <p class="flow-text">Copyright 2023</p>
+       </footer>
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script>
+        const sideNav = document.querySelectorAll(".sidenav");
+        M.Sidenav.init(sideNav);
+        
+        // Slider //
+        const slider = document.querySelectorAll(".slider");
+        M.Slider.init(slider, {
+          indicators: false,
+          height: 500,
+          transition: 600,
+          interval: 3000
+        });
+        
+        // Testimoni //
+        
+        // Show Me //
+        const show = document.querySelectorAll(".modal");
+        M.Modal.init(show);
+        
+        // Paralax //
+        const parallax = document.querySelectorAll(".parallax");
+        M.Parallax.init(parallax);
+        
+        // Carousel //
+        const carousel = document.querySelectorAll(".carousel");
+        M.Carousel.init(carousel, {
+          dist: 0,
+          shift: 50
+        });
+        
+        const scroll = document.querySelectorAll(".scrollspy");
+        M.ScrollSpy.init(scroll, {
+          scrollOffset: 50
+        });
+      </script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+    </body>
+  </html>

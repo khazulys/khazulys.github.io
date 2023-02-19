@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+i.material-icons {
+  color: #fffffe;
+}
+ul.slides > li img {
+  filter: grayscale(20%);
+}
+ul.slides > li h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #fffffe;
+  text-shadow: -4px 2px 9px rgba(0,0,0,0.44);
+}
+ul.slides > li h5 {
+  font-family: "Poppins", sans-serif;
+  color: #94a1b2;
+  font-size: 12px;
+  font-weight: 600;
+  text-shadow: -4px 2px 9px rgba(0,0,0,0.44);
+}
+/*ul.slides > li a {
+  background-color: #7f5af0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-top: 30px;
+}
+ul.slides > li a:hover {
+  background-color: #16161a;
+}*/
+.row {
+  /*background-color: #16161a;*/
+  margin-top: 30px;
+  border-radius: 5px;
+}
+/*.about h3 {
+  color: #fffffe;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 10px;
+}*/
+#about {
+  /*background-color: #16161a;*/
+}
+.row .line {
+  width: 50px;
+  height: 3px;
+  background-color: #7f5af0;
+  margin: 0 0 20px 20px;
+}
+.row #tiam {
+  color: #fffffe;
+  font-weight: 600;
+}
+.row p {
+  color: #94a1b2;
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  padding: 0 20px 20px 20px;
+  letter-spacing: 1px;
+}
+.row #details {
+  display: block;
+  background-color: transparent;
+  color:#7f5af0;
+  outline: none;
+  box-shadow: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  transform: translateX(-113px);
+}
+.row #details::hover {
+  background-color: transparent;
+}
+.row .modal-footer {
+  background-color: #242629;
+}
+.row #close {
+  display: block;
+  color: #7f5af0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+.row .modal {
+  background-color: #242629;
+}
+.row .modal span, #teams .bengs {
+  color: #fffffe;
+  font-weight: 600;
+}
+.parallax-container {
+  height: 340px;
+}
+.parallax img {
+  filter: grayscale(1);
+  opacity: 0.5 !important;
+}
+.mitra h3 {
+  color: #fffffe;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  opacity: 100%;
+  text-shadow: 1px 1px 5px rgba(0,0,0,5);
+}
+.mitra img {
+  max-width: 150px;
+  filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.5));
+}
+/* Visi Misi */
+.visi-misi {
+  width: 90%;
+  margin: 50px auto;
+  border-radius: 5px;
+  background-color: #16161a;
+}
+.visi-misi h3 {
+  color: #fffffe;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+.visi-misi p {
+  color: #94a1b2;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-align: justify;
+  padding: 30px;
+  letter-spacing: 1px;
+}
+
+/* Section Teams */
+#teams {
+  background-color: #16161a;
+}
+.tim {
+  width: 90%;
+  min-height: 300px;
+  margin-top: 80px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  background-image: url("team/tim.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(30%);
+  /*box-shadow: -1px -1px 3px -10px #16161a;*/
+}
+#teams h3,  #menu h3 {
+  color: #fffffe;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-left: 24px;
+}
+#tim, .contact span {
+  color: #7f5af0;
+}
+#resto, div.row #of {
+  color: #7f5af0;
+}
+#teams .sukses {
+  color: #94a1b2;
+  font-style: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  transform: translate(-123px, 70px);
+  padding-bottom: 20px;
+}
+.hero-card {
+  width: 200px;
+  min-height: 200px;
+  background-color: #242629;
+  border-radius: 5px;
+  padding: 30px;
+  /*box-shadow: 1px 1px 3px 1px #16161a;*/
+}
+.carousel {
+  perspective: none !important;
+}
+.carousel-item {
+  margin-top: 50px;
+}
+.hero-card .profile {
+  width: 80px;
+  height: 80px;
+  background-image: url("team/dila.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  transform: translateX(25px);
+}
+.profile-abeng {
+  width: 80px;
+  height: 80px;
+  background-image: url("img/abeng.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  transform: translateX(25px);
+}
+.profile-aziz {
+  width: 80px;
+  height: 80px;
+  background-image: url("team/azis.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  transform: translateX(25px);
+}
+.profile-putri {
+  width: 80px;
+  height: 80px;
+  background-image: url("team/putri.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  transform: translateX(25px);
+}
+.hero-card h5 {
+  font-size: 12px;
+  color: #fffffe;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.hero-card p {
+  color: #2cb67d;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+}
+
+/* Cards */
+.card {
+  border-radius: 5px;
+  background-color: #16161a;
+  color: #94a1b2;
+}
+.card-img {
+  background-image: url("menu/nasi.jpg");
+  filter: grayscale(10%);
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+.card-img-ifumie {
+  background-image: url("menu/ifumie.jpg");
+  filter: grayscale(10%);
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+.card-img-kwetiau {
+  background-image: url("menu/kwetiau.jpg");
+  filter: grayscale(10%);
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+.card-title {
+  color: #fffffe;
+  position: absolute;
+  transform: translate(20px, 120px);
+  font-size: 20px !important;
+  font-family: "Poppins", sans-serif;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  font-weight: 600 !important;
+  letter-spacing: 1px;
+}
+div.card-content span {
+  color: #2cb67d !important;
+}
+ul#test {
+  background-color: #16161a;
+}
+.testimoni {
+  background-color: #16161a;
+}
+section.testimoni h3#kata {
+  color: #7f5af0;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-top: 30px;
+}
+div.card-wrap {
+  width: 90%;
+  min-height: 200px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+div.img-hero-cowo1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url("testi/cowo1.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+div.img-hero-cewe1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url("testi/cewe1.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+div.img-hero-cewe2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url("testi/cewe2.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+div.card-wrap span i {
+  font-size: 20px;
+  color: #7f5af0;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+div.card-wrap p {
+  color: #94a1b2;
+  width: 80%;
+  padding-top: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+div.card-wrap h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: 1px; 
+}
+
+/* contact */
+.contact .card-panel {
+  background-color: #16161a;
+}
+.contact h3, h4 {
+  color: #fffffe;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.contact ul {
+  border: none;
+}
+.contact li {
+  color: #94a1b2;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  font-size: 15px;
+  background-color: #16161a !important;
+  border: 2px solid #242629 !important;
+}
+form h5 {
+  color: #fffffe;
+}
+/*input[type=text], input[type=email], input[type=number] {
+  color: #fffffe;
+}*/
+input, textarea {
+  color: #fffffe;
+}
+button.btn {
+  background-color: #7f5af0;
+}
+footer {
+  padding: 20px 0;
+  background-color: #16161a;
+  color: #fffffe;
+}
+@media only screen and (min-width: 787px) {
+  .row .abeng {
+    margin-left: 100px;
+    margin-bottom: 30px;
+  }
+  .row p {
+    margin-top: 30px;
+  }
+  .row #details {
+    transform: translateX(-345px);
+  }
+  .parallax-container {
+    height: 240px;
+  }
+  .tim {
+    padding: 200px;
+    margin-left: 50px;
+  }
+  .carousel {
+    perspective: none;
+  }
+  #teams h3 {
+    padding-left: 50px;
+  }
+  .hr-line {
+    margin-left: 26px;
+  }
+}
