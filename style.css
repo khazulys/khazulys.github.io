@@ -410,6 +410,6 @@ footer {
 }
 @media only screen and (min-width: 1024px) {
   .row #details {
-    /*transform: translateX(-500px);*/
+    /*transform: translateX(-80px);*/
   }
 }
